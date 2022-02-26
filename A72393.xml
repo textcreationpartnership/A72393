@@ -1,0 +1,452 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Newe sonets and pretie pamphlets] [written by Thomas Howell]</title>
+            <author>Howell, Thomas, fl. 1568-1581.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1575</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 7 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A72393</idno>
+            <idno type="STC">STC 13876.5</idno>
+            <idno type="STC">ESTC S123446</idno>
+            <idno type="EEBO-CITATION">39960800</idno>
+            <idno type="OCLC">ocm 39960800</idno>
+            <idno type="VID">150411</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A72393)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 150411)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1949:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Newe sonets and pretie pamphlets] [written by Thomas Howell]</title>
+                  <author>Howell, Thomas, fl. 1568-1581.</author>
+               </titleStmt>
+               <extent>[6+] p.   </extent>
+               <publicationStmt>
+                  <publisher>Thomas Colwell?,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1575?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title and imprint from STC (2nd ed.).</note>
+                  <note>Fragment. Signatures D₄₋₅ only. Best copy available for photographing.</note>
+                  <note>Reproduction of original in: Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="preface">
+            <pb facs="tcp:150411:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 7 -->
+            <head>The Preface.</head>
+            <lg>
+               <l>What eche man dothe, and eche man blante<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> nor onſe we may him ſee</l>
+               <l>Come face to face, but we once gone then ſtoutly ſtepp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> out hee:</l>
+               <l>And all he carpes that there he fyndes ere halfe he reade to ende,</l>
+               <l>And what he vnderſtandes not, blames<g ref="char:punc">▪</g> though nought he can amende.</l>
+               <l>But were it ſo that ſuche were none, how may theſe youthfull dayes</l>
+               <l>Of mine, in thyng ſo hard as this deſerue of other prayſe?</l>
+               <l>A labour long (quoth I) it is that riper age doothe craue:</l>
+               <l>And who ſhall trauaile in thy bookes, more iudgement ought to hou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Then I: whoſe greener yeares therby no thanks may hope to wynne.</l>
+               <l>Thou ſeeſt dame Nature yet hath ſett<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>No heares vppon my chynne.</l>
+               <l>Traue this therfore of grauer age, and men of greater ſhill.</l>
+               <l>Full many be that better can, and ſome perhapps that will.</l>
+               <l>But yf thy will be rather hent, a yong man<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> witt to proue,</l>
+               <l>And thinkſt that elder lerned men perhaps it ſhall behoue,</l>
+               <pb facs="tcp:150411:2" rendition="simple:additions"/>
+               <!-- PDF PAGE 8 -->
+               <l>In woork<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ight to ſpende theyr tyme, goe where Minerua<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s men,</l>
+               <l>And fineſt witts doe ſwarme: whome ſhe hath taught to paſſe with pen.</l>
+               <l>In Lyncolnes Inne and Temples twayne, Grayes Inne and other mo,</l>
+               <l>Thou ſhalt them fynde whoſe paynfull pen thy verſe ſhall floriſhe ſo,</l>
+               <l>That Melpomen thou wouldſt well ween<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> had taught them for to wright,</l>
+               <l>And all their woorks with ſtately ſtyle, and goodly grace t'endight.</l>
+               <l>There ſhalt thou ſe the ſelfe ſame Northe, whoſe woorke his witte diſplayes,</l>
+               <l>And Dyall dothe of Princes paynte, and preache abroade his prayſe.</l>
+               <l>There Sackuyldes Sonettz ſweetely ſauſte, and featly tyned hee,</l>
+               <l>There Nortons ditties do delight, there Yeluerton<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> doo flee</l>
+               <l>Well pewrde with pen: ſuche yong men three, as weene thou mightſt agayne,</l>
+               <l>To be begotte as Pallas was, of wyghtie Ioue his brayne,</l>
+               <l>There heare thou ſhalt a great reporie, of Ba<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wyns worthie name,</l>
+               <l>Whoſe Mirrour dothe of Magiſtrates, proclayme eternall fame.</l>
+            </lg>
+            <gap reason="missing" extent="1 page">
+               <desc>〈1 page missing〉</desc>
+            </gap>
+         </div>
+      </front>
+      <body>
+         <div type="fragment">
+            <div type="poem">
+               <pb facs="tcp:150411:3" rendition="simple:additions"/>
+               <!-- PDF PAGE 9 -->
+               <gap reason="missing" extent="1 page">
+                  <desc>〈1 page missing〉</desc>
+               </gap>
+               <head>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> complaint to the god Cupid be<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>auſe he with his Darts perſeth him alone.</head>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>upid Venu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> darling deare,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>oſe powre un mortal might may bide,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>in h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y how thou bear,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ing Forkers by thy five,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hy doſt thou this lie ſtill and fleapt:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hen I to thee due wayle and weepe.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> is become thy wonted powre:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ou va<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>u<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ht and put to flight:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ou <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſpoſde to lowre,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e alone moſte wofull wight:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, ſay <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, Oh I thee pray,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>urue the hart breed<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s mine andy.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ants parte not ſeeme to ſhow</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ay the yeelding captiue wight</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e in time take vp thy howe,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>orce my deare to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>now thy mighte,</l>
+                  <l>Dido did when once in lappe,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ou tookſt on thee Aſſcanius ſhappe.</l>
+               </lg>
+               <lg>
+                  <l>Would I not like greif ſhould grow,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> thereby, as did to mee.</l>
+                  <pb facs="tcp:150411:4"/>
+                  <!-- PDF PAGE 10 -->
+                  <l>But that ſhe may then partly kn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>What time I ſpend in miſery,</l>
+                  <l>Ne yet I wiſhe hir no ſuch end,</l>
+                  <l>As deſtinie did to Dido ſend.</l>
+               </lg>
+               <lg>
+                  <l>But only this I wiſh thereby,</l>
+                  <l>That ſhe as l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tle power may haue,</l>
+                  <l>At any time aſide to wrie,</l>
+                  <l>The humble iute that I doe craue,</l>
+                  <l>As Did<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> had when ſhe did yeelde,</l>
+                  <l>Vnto Eneas in the feelde,</l>
+               </lg>
+               <trailer>Finis.</trailer>
+            </div>
+            <div type="part">
+               <head>A token of gratitude to his very frend,</head>
+               <p>YOur gen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l talk &amp; fr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndly curti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> your cou<g ref="char:cmbAbbrStroke">̄</g>fina<g ref="char:cmbAbbrStroke">̄</g>ce acording wel y<hi rend="sup">t</hi> your filid words which ſtil in mind I your truſty trete, deuoyd of guile or Hath me ſo bound in euery poynt to that whilſt I line I am your ſeruant</p>
+               <trailer>Finis.</trailer>
+            </div>
+            <div type="poem">
+               <pb n="12" facs="tcp:150411:5" rendition="simple:additions"/>
+               <!-- PDF PAGE 11 -->
+               <gap reason="missing" extent="1 page">
+                  <desc>〈1 page missing〉</desc>
+               </gap>
+               <lg>
+                  <l>By natures lawes there is no cauſe,</l>
+                  <l>Tho<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> liberty to ſtay:</l>
+                  <l>To worke their will, or good or <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>;</l>
+                  <l>Why ſhould they even haue nay.</l>
+               </lg>
+               <lg>
+                  <l>He that<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> &amp; thinges geueth women their owne will.</l>
+                  <l>To <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> Fether ſhall be ſure ſtill</l>
+                  <l>For to be deer, who will neicer,</l>
+                  <l>In feathers fre<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> and fayre,</l>
+                  <l>A flie for him that to go tr<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>,</l>
+                  <l>Woth dwell in deepe diſpayre</l>
+               </lg>
+               <lg>
+                  <l>Mantuan writes declard in booke of his,</l>
+                  <l>That ſugred poyſen ech ill woman is.</l>
+                  <l>To poyſon ſweet, tho Mantua lyke,</l>
+                  <l>Fayre dames as freſh as flowor.</l>
+                  <l>Yet pleaſnunt taſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t. ſhal be imbraſte,</l>
+                  <l>Before the cauſe thats ſowre.</l>
+               </lg>
+               <lg>
+                  <l>Through pleaſure Paris to be in Helens vew<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</l>
+                  <l>Troy was troddown and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> that cauſd them<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                  </l>
+                  <l>Although troye towne were thus trode downe,</l>
+                  <l>Where paris <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> life.</l>
+                  <l>Yet Helins fate <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> may diſgrace,</l>
+                  <l>For Paris wrought that ſtrife.</l>
+               </lg>
+               <lg>
+                  <l>The noble Hercules Dianica did bryng down</l>
+                  <l>Whych through the worlde had <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſo greate re<g ref="char:EOLhyphen"/>nown<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Where ye do ſaye, hercles decaye,</l>
+                  <l>By Dianyr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ll,</l>
+                  <l>Agaynſt her wyll through <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> I can prooue well.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb facs="tcp:150411:6"/>
+               <!-- PDF PAGE 12 -->
+               <gap reason="missing" extent="1 page">
+                  <desc>〈1 page missing〉</desc>
+               </gap>
+               <head>The variable thoughts of the Louer captiue.</head>
+               <lg>
+                  <l>I Lyue in hope and yet diſpayre,</l>
+                  <l>I do reioyce when greife doth grow,</l>
+                  <l>I fly aloft aboue the ayre:</l>
+                  <l>But dwell alway in Limbo low.</l>
+               </lg>
+               <lg>
+                  <l>I neuer ſeeke: tho much I finde,</l>
+                  <l>Yet finde nothing and ſtill do ſeeke:</l>
+                  <l>I ſee what beſt contents my minde:</l>
+                  <l>When moſt in mind I do miſlike.</l>
+               </lg>
+               <lg>
+                  <l>One hath me in captiuitie,</l>
+                  <l>So ſuer that I vneth may ſwarue:</l>
+                  <l>Who lets me liue at libertie,</l>
+                  <l>As free from bands that I deſerue.</l>
+               </lg>
+               <trailer>Finis.</trailer>
+            </div>
+            <div type="poem">
+               <head>The defence of vvomens vvill.</head>
+               <l>WHo wome<g ref="char:cmbAbbrStroke">̄</g> wiſheth in thynges to haue their myu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>To leaue good lyfe in iudgement is but blynde. w. v.</l>
+            </div>
+            <gap reason="missing" extent="1 page">
+               <desc>〈1 page missing〉</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>
